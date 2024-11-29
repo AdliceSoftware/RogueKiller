@@ -29,9 +29,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: ucheck-report
+    id: roguekiller-report
     attributes:
-      label: ucheck-report
+      label: roguekiller-report
       description: Please copy and paste any relevant log output. This will be
         automatically formatted into code, so no need for backticks.
     validations:
