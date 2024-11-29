@@ -1,0 +1,67 @@
+name: Bug Report
+description: File a bug report
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+        We will ask your first to check a few things :
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Preliminary Checks
+      description: Before submitting this issue, please make sure the following
+        stataments are TRUE
+      options:
+        - label: I use a modern operating system (Windows 7 with SP1 or newer)
+          required: true
+        - label: I use the latest version of UCheck available (stable or beta version)
+          required: true
+        - label: I checked that the issue I'm reporting was not already reported
+          required: true
+  - type: checkboxes
+    id: beta
+    attributes:
+      label: Beta Version
+      description: If you are reporting an issue with latest BETA version, please
+        check the following checkbox
+      options:
+        - label: I am reporting an issue for UCheck BETA
+          required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Tell use about the issue in detail
+    validations:
+      required: true
+  - type: textarea
+    id: ucheck-report
+    attributes:
+      label: ucheck-report
+      description: Please copy and paste any relevant log output. This will be
+        automatically formatted into code, so no need for backticks.
+    validations:
+      required: false
+  - type: dropdown
+    id: reproductible
+    attributes:
+      label: Is the issue reproductible?
+      options:
+        - 'Yes'
+        - 'No'
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: vote
+    attributes:
+      label: Don't forget to vote !
+      description: Vote for your features
+      options:
+        - label: |
+            Bugs and new features will be treated by priority and popularity.
+            Make sure **you vote below** with a :thumbsup: !
+          required: false
