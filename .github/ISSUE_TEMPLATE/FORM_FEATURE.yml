@@ -17,7 +17,7 @@ body:
       options:
         - label: I use a modern operating system (Windows 7 with SP1 or newer)
           required: true
-        - label: I checked that the feature I'm requesting is not available in UCheck Beta
+        - label: I checked that the feature I'm requesting is not available in RogueKiller Beta
           required: true
         - label: I checked that the feature I'm requesting was not already requested
           required: true
