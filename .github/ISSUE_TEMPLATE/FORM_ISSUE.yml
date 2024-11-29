@@ -17,7 +17,7 @@ body:
       options:
         - label: I use a modern operating system (Windows 7 with SP1 or newer)
           required: true
-        - label: I use the latest version of UCheck available (stable or beta version)
+        - label: I use the latest version of RogueKiller available (stable or beta version)
           required: true
         - label: I checked that the issue I'm reporting was not already reported
           required: true
@@ -28,7 +28,7 @@ body:
       description: If you are reporting an issue with latest BETA version, please
         check the following checkbox
       options:
-        - label: I am reporting an issue for UCheck BETA
+        - label: I am reporting an issue for RogueKiller BETA
           required: false
   - type: textarea
     id: what-happened
@@ -38,9 +38,9 @@ body:
     validations:
       required: true
   - type: textarea
-    id: ucheck-report
+    id: roguekiller-report
     attributes:
-      label: ucheck-report
+      label: roguekiller-report
       description: Please copy and paste any relevant log output. This will be
         automatically formatted into code, so no need for backticks.
     validations:
